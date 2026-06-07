@@ -82,6 +82,14 @@ border-top: 4px solid #00ffff;
 color: #cccccc;
 }
 
+apresFooter {
+text-align: center;
+padding: 20px;
+background: #00ffff;
+border-top: 4px solid #00ffff;
+color: #cccccc;
+}
+
 /* Retro blinking effect */
 @keyframes blink {
 50% {
