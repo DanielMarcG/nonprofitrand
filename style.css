@@ -44,6 +44,12 @@ nav a:hover {
 color: yellow;
 }
 
+nav a.active {
+  color: #fff;
+  background: #007acc;
+  font-weight: bold;
+}
+
 main {
 max-width: 1000px;
 margin: 20px auto;
