@@ -18,10 +18,11 @@ header {
     border-bottom: 4px solid #00ffff;
 }
 
-.header-left,
-.header-right {
+.header-left {
     width: 100px;
     height: 100px;
+}
+.header-right {
     flex-shrink: 0;
 }
 
