@@ -8,13 +8,6 @@ radial-gradient(white 1px, transparent 1px);
 background-size: 30px 30px;
 }
 
-header-0left {
-text-align: center;
-padding: 30px;
-background: linear-gradient(#000080, #000040);
-border-bottom: 4px solid #00ffff;
-}
-
 header {
 text-align: center;
 padding: 30px;
