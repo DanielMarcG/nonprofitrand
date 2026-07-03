@@ -1,11 +1,11 @@
 body {
-margin: 0;
-font-family: "Verdana", sans-serif;
-background: #000022;
-color: #ffffff;
-background-image:
-radial-gradient(white 1px, transparent 1px);
-background-size: 30px 30px;
+    margin: 0;
+    font-family: "Verdana", sans-serif;
+    background: #000022;
+    color: #ffffff;
+    background-image:
+    radial-gradient(white 1px, transparent 1px);
+    background-size: 30px 30px;
 }
 
 header {
@@ -43,86 +43,86 @@ header {
 }
 
 header h1 {
-color: #00ffff;
-text-shadow: 2px 2px #ff00ff;
-margin-bottom: 10px;
+    color: #00ffff;
+    text-shadow: 2px 2px #ff00ff;
+    margin-bottom: 10px;
 }
 
 marquee {
-color: yellow;
-font-weight: bold;
+    color: yellow;
+    font-weight: bold;
 }
 
 nav {
-text-align: center;
-background: #111144;
-padding: 12px;
-border-bottom: 2px solid #00ffff;
+    text-align: center;
+    background: #111144;
+    padding: 12px;
+    border-bottom: 2px solid #00ffff;
 }
 
 nav a {
-color: #00ffff;
-text-decoration: none;
-margin: 0 12px;
-font-weight: bold;
+    color: #00ffff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
 }
 
 nav a:hover {
-color: yellow;
+    color: yellow;
 }
 
 nav a.active {
-color: yellow;
+    color: yellow;
 }
 
 main {
-max-width: 1000px;
-margin: 20px auto;
-padding: 10px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
 }
 
 section {
-background: #111133;
-border: 3px ridge #00ffff;
-margin-bottom: 20px;
-padding: 15px;
+    background: #111133;
+    border: 3px ridge #00ffff;
+    margin-bottom: 20px;
+    padding: 15px;
 }
 
 h2 {
-color: #00ffff;
-border-bottom: 1px dashed #00ffff;
-padding-bottom: 5px;
+    color: #00ffff;
+    border-bottom: 1px dashed #00ffff;
+    padding-bottom: 5px;
 }
 
 article {
-background: #000044;
-padding: 10px;
-margin-bottom: 10px;
-border: 1px solid #6666ff;
+    background: #000044;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #6666ff;
 }
 
 ul {
-line-height: 1.8;
+    line-height: 1.8;
 }
 
 footer {
-text-align: center;
-padding: 20px;
-background: #000040;
-border-top: 4px solid #00ffff;
-color: #cccccc;
+    text-align: center;
+    padding: 20px;
+    background: #000040;
+    border-top: 4px solid #00ffff;
+    color: #cccccc;
 }
 
 apresFooter {
-text-align: left;
-color: #cccccc;
-font-size: 11px;
+    text-align: left;
+    color: #cccccc;
+    font-size: 11px;
 }
 
 /* Retro blinking effect */
-@keyframes blink {
-50% {
-opacity: 0.4;
+    @keyframes blink {
+    50% {
+    opacity: 0.4;
 }
 }
 
@@ -131,7 +131,7 @@ animation: blink 2.5s infinite;
 }
 
 /* Mobile support */
-@media (max-width: 768px) {
+    @media (max-width: 768px) {
 
 ```
 nav a {
@@ -143,6 +143,5 @@ main {
     padding: 5px;
 }
 ```
-
 }
 
