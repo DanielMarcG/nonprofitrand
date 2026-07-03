@@ -19,10 +19,11 @@ header {
 }
 
 .header-left {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 .header-right {
+    width: 13%;
     flex-shrink: 0;
 }
 
