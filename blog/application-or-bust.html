@@ -11,17 +11,14 @@
 
 <div class="stars"></div>
 
-<header>
-    <h1>🌐 Community Technology & Research Initiative 🌐</h1>
-    <p>Supporting Local Business Through IT Services, Research & Community Engagement</p>
-
-```
-<marquee scrollamount="4">
-    Welcome to our ml & ai corner of the World Wide Web!
-</marquee>
-```
-
-</header>
+<div id="header"></div>
+<script>
+fetch("../header.html")
+  .then(response => response.text())
+  .then(html => {
+    document.getElementById("header").innerHTML = html;
+  });
+</script>
 
 <nav>
 	<a href="../index.html">Home</a>
