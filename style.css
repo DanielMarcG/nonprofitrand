@@ -75,6 +75,26 @@ nav a.active {
     color: yellow;
 }
 
+nav a.button-link {
+    display: inline-block;
+    padding: 4px 12px;
+    background: #c0c0c0;
+    color: black;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid #404040;
+    border-bottom: 2px solid #404040;
+    text-decoration: none;
+}
+
+nav a.button-link:active,
+nav a.active {
+    border-top: 2px solid #404040;
+    border-left: 2px solid #404040;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
 main {
     max-width: 1000px;
     margin: 20px auto;
