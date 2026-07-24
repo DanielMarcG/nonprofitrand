@@ -95,14 +95,27 @@ nav a.button-link:hover {
 }
 
 /* While the mouse button is held down */
-nav a.button-link:active,
+nav a.button-link:active {
+    background: #ffff66;
+    color: black;
+
+    border-top: 2px solid #404040;
+    border-left: 2px solid #404040;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+
+    transform: translate(1px, 1px);
+}
 
 /* Permanently pressed (current page) */
 nav a.button-link.active {
+    background: #ffff66;
+    color: black;
+
     border-top: 2px solid #404040;
     border-left: 2px solid #404040;
-    border-right: 2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
 
     transform: translate(1px, 1px);
 }
