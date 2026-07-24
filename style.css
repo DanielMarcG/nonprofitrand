@@ -80,29 +80,29 @@ nav a.button-link {
     padding: 4px 12px;
     background: #c0c0c0;
     color: black;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
+    text-decoration: none;
+    font-weight: normal;
+
+    /* Raised bevel */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
     border-right: 2px solid #404040;
     border-bottom: 2px solid #404040;
-    text-decoration: none;
 }
 
 nav a.button-link:hover {
-    background: #e8e5dc;
+    background: #d8d8d8;
 }
 
-nav a.button-link:active {
-    display: inline-block;
-    padding: 6px 14px;
-    background: #d4d0c8;
-    color: black;
-    border: 2px inset #d4d0c8; /* inset = pressed */
-    text-decoration: none;
-    font-weight: bold;
-}
+/* While the mouse button is held down */
+nav a.button-link:active,
 
+/* Permanently pressed (current page) */
 nav a.button-link.active {
-    border: 2px inset #d4d0c8;   /* Permanently looks pressed */
+    border-top: 2px solid #404040;
+    border-left: 2px solid #404040;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 
 main {
