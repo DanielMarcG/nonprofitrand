@@ -101,6 +101,10 @@ nav a.button-link:active {
     font-weight: bold;
 }
 
+nav a.button-link.active {
+    border: 2px inset #d4d0c8;   /* Permanently looks pressed */
+}
+
 main {
     max-width: 1000px;
     margin: 20px auto;
