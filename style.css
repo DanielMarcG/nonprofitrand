@@ -91,7 +91,13 @@ nav a.button-link:hover {
 }
 
 nav a.button-link:active {
-    border: 2px inset #d4d0c8; /* appears pressed */
+    display: inline-block;
+    padding: 6px 14px;
+    background: #d4d0c8;
+    color: black;
+    border: 2px inset #d4d0c8; /* inset = pressed */
+    text-decoration: none;
+    font-weight: bold;
 }
 
 main {
