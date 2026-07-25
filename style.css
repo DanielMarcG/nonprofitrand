@@ -83,7 +83,7 @@ nav a.button-link {
     background: #c0c0c0;
     color: black;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: bold;
 
     /* Raised bevel */
     border-top: 2px solid #ffffff;
@@ -105,9 +105,7 @@ nav a.button-link:active {
     border-left: 2px solid #404040;
     border-right: 2px solid white;
     border-bottom: 2px solid white;
-
     transform: translate(1px, 1px);
-
     box-shadow: inset 1px 1px 2px #404040;
 }
 
@@ -115,12 +113,10 @@ nav a.button-link:active {
 nav a.button-link.active {
     background: #ffff66;
     color: black;
-
     border-top: 2px solid #404040;
     border-left: 2px solid #404040;
     border-right: 2px solid white;
     border-bottom: 2px solid white;
-
     transform: translate(1px, 1px);
 }
 
