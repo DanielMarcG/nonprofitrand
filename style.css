@@ -81,7 +81,7 @@ nav a.button-link {
     display: inline-block;
     padding: 4px 12px;
     background: #c0c0c0;
-    color: black; 
+    color: 00ffff; /* black */ 
     text-decoration: none;
     font-weight: normal;
 
@@ -94,6 +94,7 @@ nav a.button-link {
 
 nav a.button-link:hover {
     background: #d8d8d8;
+    color: yellow;
 }
 
 /* While the mouse button is held down */
