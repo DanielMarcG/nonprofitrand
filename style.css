@@ -151,6 +151,34 @@ h2 {
     margin-left: 40px;
 }
 
+.blog-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blog-nav button {
+    background: #303030;
+    color: #f0f0f0;
+    border: 1px solid #606060;
+    padding: 8px 18px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.blog-nav button:hover {
+    background: #404040;
+}
+
+.blog-post {
+    display: none;
+}
+
+.blog-post.active {
+    display: block;
+}
+
 article {
     background: #000044;
     padding: 10px;
