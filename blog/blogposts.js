@@ -1,6 +1,6 @@
 const blogPosts = [
-    "application-or-bust.html",
-    "state-of-the-internet.html",
     "technology-labyrinths.html",
+    "state-of-the-internet.html",
+    "application-or-bust.html",
     "tiny-llama-1p1.html"
 ];
