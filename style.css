@@ -154,7 +154,7 @@ h2 {
 .blog-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left; /*align-items: center;*/
     max-width: 300px; /*max-width: 400px; max-width: 350px;*/
     margin: 0 auto 20px auto;
 }
