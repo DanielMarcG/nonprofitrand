@@ -180,13 +180,6 @@ h2 {
     display: block;
 }
 
-article {
-    background: #111133; /*background: #000044;*/
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 0px solid #6666ff;
-}
-
 ul {
     line-height: 1.8;
 }
