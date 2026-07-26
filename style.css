@@ -169,6 +169,7 @@ h2 {
     cursor: pointer;
     border-radius: 6px;
     text-decoration: none;
+    font-style: italic;
 }
 
 .blog-nav a:hover {
