@@ -22,3 +22,24 @@ if (index < blogPosts.length - 1) {
 } else {
     next.style.visibility = "hidden";
 }
+const bot-prev = document.getElementById("bot-prevBtn");
+const bot-next = document.getElementById("bot-nextBtn");
+/*const bot-number = document.getElementById("bot-postNumber");*/
+
+// Display current position
+number.textContent = `${index + 1} / ${blogPosts.length}`;
+
+// Previous button
+if (index > 0) {
+    bot-prev.href = blogPosts[index - 1];
+} else {
+    bot-prev.style.visibility = "hidden";
+}
+
+// Next button
+if (index < blogPosts.length - 1) {
+    bot-next.href = blogPosts[index + 1];
+} else {
+    bot-next.style.visibility = "hidden";
+}
+
