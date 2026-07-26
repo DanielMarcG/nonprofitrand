@@ -26,7 +26,7 @@ if (index < blogPosts.length - 1) {
 }
 
 // Display current position
-bot_number.textContent = `${index + 1} / ${blogPosts.length}`;
+//bot_number.textContent = `${index + 1} / ${blogPosts.length}`;
 
 // Previous button
 if (index > 0) {
