@@ -144,11 +144,6 @@ h1 {
 animation: blink 2.5s infinite;
 }
 
-/* Mobile support */
-    @media (max-width: 768px) {
-
-```
-
 h2 {
     color: rgb(0, 255, 255);
     padding-bottom: 5px;
@@ -228,6 +223,7 @@ apresFooter {
 }
 }
 
+/*
 nav a {
     display: block;
     margin: 8px 0;
@@ -236,6 +232,10 @@ nav a {
 main {
     padding: 5px;
 }
+*/
+
+/* Mobile support */
+    @media (max-width: 768px) {
 ```
 }
 
