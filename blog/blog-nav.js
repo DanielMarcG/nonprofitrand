@@ -7,6 +7,7 @@ const next = document.getElementById("nextBtn");
 const number = document.getElementById("postNumber");
 const bot_prev = document.getElementById("bot-prevBtn");
 const bot_next = document.getElementById("bot-nextBtn");
+const bot_number = document.getElementById("bot-postNumber");
 
 // Display current position
 number.textContent = `${index + 1} / ${blogPosts.length}`;
@@ -25,10 +26,8 @@ if (index < blogPosts.length - 1) {
     next.style.visibility = "hidden";
 }
 
-/*const bot-number = document.getElementById("bot-postNumber");*/
-
 // Display current position
-number.textContent = `${index + 1} / ${blogPosts.length}`;
+bot_number.textContent = `${index + 1} / ${blogPosts.length}`;
 
 // Previous button
 if (index > 0) {
