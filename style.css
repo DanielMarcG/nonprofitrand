@@ -136,9 +136,10 @@ section {
 }
 
 h2 {
-    color: #00ffff;
-    border-bottom: 1px dashed #00ffff;
+    color: rgb(0, 255, 255);
     padding-bottom: 5px;
+    border-bottom: 1px dashed rgb(0, 255, 255);
+    margin: 5px 0;
 }
 
 #blog {
