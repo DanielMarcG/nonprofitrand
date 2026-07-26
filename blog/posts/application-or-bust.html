@@ -211,38 +211,6 @@ fetch("../../footer.html")
     document.getElementById("footer").innerHTML = html;
 });
 </script>
-
-<script>
-const posts = document.querySelectorAll(".blog-post");
-const prev = document.getElementById("prevBtn");
-const next = document.getElementById("nextBtn");
-const number = document.getElementById("postNumber");
-let current = 0;
-
-function showPost(index) {
-    posts.forEach(post => post.classList.remove("active"));
-    posts[index].classList.add("active");
-    number.textContent = `${index + 1} / ${posts.length}`;
-    prev.disabled = index === 0;
-    next.disabled = index === posts.length - 1;
-}
-
-prev.addEventListener("click", () => {
-    if (current > 0) {
-        current--;
-        showPost(current);
-    }
-});
-
-next.addEventListener("click", () => {
-    if (current < posts.length - 1) {
-        current++;
-        showPost(current);
-    }
-});
-    
-showPost(current);
-</script>
     
 </body>
 </html>
