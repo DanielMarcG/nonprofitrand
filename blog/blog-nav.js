@@ -9,7 +9,7 @@ const bot_next = document.getElementById("bot-nextBtn");
 const bot_number = document.getElementById("bot-postNumber");
 
 // Display current position
-number.textContent = `(${index + 1} / ${blogPosts.length}`);
+number.textContent = `(${index + 1} / ${blogPosts.length})`;
 
 // Previous button
 if (index > 0) {
