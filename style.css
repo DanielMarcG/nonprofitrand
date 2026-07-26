@@ -160,9 +160,9 @@ h2 {
     padding-right: 40px;
 }
 
-#blog a:link {
-    line-height: 1.5;   /* 1.8 */
-    font-size: 14px;    /* 17, 7, 13, 15 */
+#blog a {
+    /*line-height: 1.5;   /* 1.8 */
+    /*font-size: 14px;    /* 17, 7, 13, 15 */
     color: #551A8B;
 }
 
