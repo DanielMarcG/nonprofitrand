@@ -164,8 +164,8 @@ h2 {
     background: #303030;
     color: #f0f0f0;
     border: 1px solid #606060;
-    font-size: 12px;
-    padding: 6px 14px;
+    font-size: 12px; /*font-size: 12px;*/
+    padding: 6px 14px; /*padding: 8px 16px;*/
     cursor: pointer;
     border-radius: 6px;
     text-decoration: none;
