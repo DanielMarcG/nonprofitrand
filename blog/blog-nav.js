@@ -1,5 +1,4 @@
 const currentPage = window.location.pathname.split("/").pop();
-
 const index = blogPosts.indexOf(currentPage);
 
 const prev = document.getElementById("prevBtn");
