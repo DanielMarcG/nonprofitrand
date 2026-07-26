@@ -4,13 +4,21 @@ const index = blogPosts.indexOf(currentPage);
 
 const prev = document.getElementById("prevBtn");
 const next = document.getElementById("nextBtn");
+const number = document.getElementById("postNumber");
 
-if (index > 0)
+// Display current position
+number.textContent = `${index + 1} / ${blogPosts.length}`;
+
+// Previous button
+if (index > 0) {
     prev.href = blogPosts[index - 1];
-else
+} else {
     prev.style.visibility = "hidden";
+}
 
-if (index < blogPosts.length - 1)
+// Next button
+if (index < blogPosts.length - 1) {
     next.href = blogPosts[index + 1];
-else
+} else {
     next.style.visibility = "hidden";
+}
