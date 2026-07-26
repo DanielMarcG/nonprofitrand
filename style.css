@@ -58,6 +58,7 @@ nav {
     background: #111144;
     padding: 12px;
     border-bottom: 2px solid #00ffff;
+    font-style: italic;
 }
 
 nav a {
