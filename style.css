@@ -222,6 +222,8 @@ apresFooter {
     text-align: left;
     color: #cccccc;
     font-size: 11px;
+    background: #252525;
+    padding: 10px 12px;
 }
 
 /* Retro blinking effect */
