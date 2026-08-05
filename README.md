@@ -6,7 +6,9 @@ of style, structure and even font colors as well as language utilization
 standards among top developers from readily accessible data gained at public corporations 
 and government bodies, presumably.
 
-Compiled March 14, 2024
+Compiled March 14, 2024 with a bit of help from Github Copilot
+with restructuring the root directory and moving a few files
+around.
 
 # HTML pages:
 1. index.html (main landing site used by DNS credentials)
