@@ -1,10 +1,23 @@
-# nonprofit R&D
+# HTML Index pages and associated CSS style pages.
 
-We are a nonprofit corporation dedicated to advancing Ai technology,
-        supporting organizations in 'Right to Repair' advocacy, ,
-        iFixit, conducting applied research and strengthening our local IT communities 
-        through radical accountability and collaborations such as this static HTML pages and associated
-        CSS style pages and
-        layout with a blog sectional for updates and threads.
+This website was built in a classic web format employing static HTML
+pages built with the help of OpenAi ChatGPT 4.5 in suggesting ideas
+of style, structure and even font colors as well as language utilization
+standards among top developers from readily accessible data gained at public corporations 
+and government bodies, presumably.
 
-        If You like what you see buy me a coffee or reach out: 
+# HTML pages:
+1. index.html (main landing site used by DNS credentials)
+2. header.html (upper frame of the window screen set by the browser)
+3. footer.html (lower frame)
+4. blog-index.html (blog landing site)
+
+# Style pages:
+1. style.css
+
+# Javascript pages:
+1. blog-posts.js
+2. blog-nav.js
+
+
+        If You like what you see buy me a coffee or reach out!
