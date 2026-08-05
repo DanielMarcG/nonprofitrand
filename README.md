@@ -6,6 +6,8 @@ of style, structure and even font colors as well as language utilization
 standards among top developers from readily accessible data gained at public corporations 
 and government bodies, presumably.
 
+Compiled March 14, 2024
+
 # HTML pages:
 1. index.html (main landing site used by DNS credentials)
 2. header.html (upper frame of the window screen set by the browser)
